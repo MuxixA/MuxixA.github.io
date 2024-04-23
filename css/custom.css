@@ -1,0 +1,24 @@
+.nickname {
+  background-image: linear-gradient(135deg, $light-post-link-color, $light-post-link-hover-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dark-theme .nickname {
+  background-image: linear-gradient(135deg, $dark-post-link-color, $dark-post-link-hover-color);
+}
+.post-wrap .post-title {
+  background-image: linear-gradient(135deg, $light-post-link-color, $light-post-link-hover-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dark-theme .post-wrap .post-title {
+  background-image: linear-gradient(135deg, $dark-post-link-color, $dark-post-link-hover-color);
+}
+.switch_default:checked + label {
+  background-color: $light-post-link-color;
+}
+.dark-theme .switch_default:checked + label {
+  background-color: $dark-post-link-color;
+}
